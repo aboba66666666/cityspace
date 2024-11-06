@@ -1,0 +1,57 @@
+
+@import "nullstyle.scss";
+@import"header.scss";
+@import"footer.scss";
+@import "main.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+._container{
+	width: 100%;
+	max-width: 1220px;
+	margin: 0 auto;
+}
+body{
+	font-family: Inter,sans-serif;
+}
+body.lock{
+	overflow: hidden;
+}
+._icon{
+	display: block;
+	position: relative;
+	z-index: 3;
+	cursor: pointer;
+	opacity: 1;
+	transition: all 0.3s linear;
+	left: 15px;
+}
+._icon:hover{
+			opacity: 0;
+		transition: all 0.3s linear;
+}
+._iconhover{
+			display: block;
+		position: relative;
+		z-index: 1;
+		right: 15px;
+		cursor: pointer;
+}
+.tittle{
+		font-size: calc(30px + 18 * (100vw / 1920));
+		font-weight: 700;
+}
+.txt{
+	font-size: calc(12px + 6 *(100vw / 1920));
+}
+/*
+$md1:max-width: 767px;
+$md1:max-width: 767px;
+$md1:max-width: 767px;
+*/
+
+/*
+@media ($md1 + px){
+	
+}
+*/
+

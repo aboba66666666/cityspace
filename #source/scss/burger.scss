@@ -1,0 +1,35 @@
+@import"header.scss";
+
+
+
+.header__burger:before,
+.header__burger:after{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 10px;
+	height: 2px;
+	color: #000;
+	left: 0;
+}
+
+.header__burger:before{
+	content: '';
+	top: 0;
+}
+
+.header__burger:after{
+	content: '';
+	bottom: 0;
+}	
+
+
+
+.header__burger span{
+	display: block;
+	position: absolute;
+	width: 10px;
+	height: 2px;
+	color: #000;
+	top: 10px;
+}

@@ -1,0 +1,9 @@
+.work {
+  margin: 180px 0px 0px 0px;
+}
+
+.work__service_number {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 70px;
+}
